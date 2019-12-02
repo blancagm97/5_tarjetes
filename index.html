@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tarjetes codeartist</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+        }
+        body{
+            height: 100%;
+            background: linear-gradient(38deg, mediumpurple,purple);
+        }
+        .contenidor{
+            width: 100%;
+            display: flex;
+            padding: 2em;
+            justify-content: center;
+            flex-direction: row;
+            }
+        .dissenyador{
+            width: 35em;
+            margin: 1em;
+            background: rgba(245,245,245,0.8);
+            border-radius: 
+        }
+        .cont_img{
+            border-radius: 20px 20px 0 0; 
+            height: 300px;
+            background: purple; 
+        }
+        .cont_img img{
+            filter: grayscale(100%);
+            mix-blend-mode: lighten; 
+            border-radius: 20px 20px 0 0;
+            overflow: hidden;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+        header{
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            color: purple;
+            margin: 0.5em 1em;
+            padding: 0 0 0.2em 0;
+            border-bottom: 1px solid purple;
+        }
+        h3{
+            font-size: 600;
+            font-style: normal;
+        }
+        h4{
+            font-style: italic;
+            font-weight: 500;
+        }
+        .cont_txt{
+            margin: 1em 1em 0.5em 1em;
+            color: purple;
+            text-align: justify;
+            hyphens: auto;
+            font-size: 0.8em;
+            line-height: 1.4em;  
+        }
+        .peu_dissenyador{
+            background: purple;
+            border-radius: 0 0 20px 20px;
+            color: white;
+            font-style: italic;
+            font-size: 0.9em;
+            padding: 1em 1em 1em 1em;
+        }
+        @media (max-width:600px){  
+         body{
+        font-size: 14px; 
+        }   
+        .contenidor{
+        flex-direction: column;
+        }
+        .dissenyador{
+                width: 50em;
+        }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="contenidor">
+        <div class="dissenyador">
+        <div class="cont_img">
+            <img src="img/beatriz%20ramo.jpeg" alt="beatriz">
+        </div>
+        <header>
+            <h3>Beatriz Ramo (Naranjabilidad)</h3>
+            <h4>1991</h4>
+        </header>
+        <div class="cont_txt">
+        <p>Detrás de Naranjalidad se encuentra Beatriz Ramo, arquitecta e ilustradora de 28 años. 
+        Ha expuesto en ciudades como Madrid, Barcelona y Shanghai entre otras. Ganadora del concurso de ilustración 
+        de Oysho 2014, su trabajo se caracteriza por la casi constante presencia femenina, aderezada con 
+        atmósferas de naturaleza, muchos colores y ligeros toques surrealistas. Su trabajo se define 
+        principalmente por el uso del lápiz, carboncillo y acuarela, aunque utiliza múltiples técnicas experimentales en sus trabajos.</p>
+       </div>
+            <div class="peu_dissenyador">
+        <p>Recientemente ha publicado su primer libro: Trópicos (Lunwerg 2017) Entre sus trabajos encontramos colaboraciones con IKEA, Vogue, Oysho, Ron Barceló, Pacha, Bombay Shapphire, Mr. Wonderful, MMBFW, Threadless, Hyundai, Editorial Planeta, Penguin Random House Grupo Editorial, Telva, Yorokobu...</p>
+        </div>
+        </div>
+    
+    <div class="dissenyador">
+        <div class="cont_img">
+            <img src="img/sara-herranz.gif">
+        </div>
+        <header>
+            <h3>Sara Herranz</h3>
+            <h4>Fecha nacmiento</h4>
+        </header>
+        <div class="cont_txt">
+        <p>Sara Herranz, natural de Tenerife, estudió Comunicación Audiovisual en Santiago de Compostela. Continuó su camino en Madrid donde se especializó en realización televisiva. Tras acabar los estudios tuvo una crisis de identidad que sufrió al no encontrar empleo y no saber muy bien cómo encauzar su vida. A esto se sumó una dolorosa ruptura amorosa.</p>
+       </div>
+        <div class="peu_dissenyador">
+        <p>A raíz de esta mala etapa personal comenzó a dedicar tiempo a una de sus pasiones: dibujar. Decidió usar su afición al dibujo como salida de emergencia y así creó un blog personal donde volcar sus sentimientos. A partir de ese momento empezó con su página en tumblr a modo de diario. Su popularidad fue creciendo rápidamente en Internet casi sin darse cuenta.</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
